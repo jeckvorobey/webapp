@@ -14,7 +14,8 @@ const { configure } = require('quasar/wrappers');
 
 module.exports = configure(function (/* ctx */) {
   return {
-    path: '/webapp',
+    path: '/webapp/',
+    publicPath: '/webapp/',
     eslint: {
       // fix: true,
       // include: [],
